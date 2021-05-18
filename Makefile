@@ -19,10 +19,10 @@ default:
 
 # Targets
 test: env = test
-test: build
+test: clean build
 
 prod: env = prod
-prod: build
+prod: clean build
 
 build: $(objects)
 
